@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sue Space</title>
+    <style>
+        body {
+            font-family:'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        header {
+           background-color: #154711;
+           background-size:cover;
+           background-repeat: no-repeat;
+           background-position: center;
+           color: rgb(0, 0, 0);
+           padding: 1em ;
+           text-align: center;
+        }
+  
+        nav {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 350px;
+            background-color: #101131;
+        }
+        nav a {
+            color: white;
+            padding: 8px 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #195369;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        section {
+            flex: 1;
+        padding: 2em;
+        text-align: left;
+        }
+        
+        #home{
+            background-image: url(IMAGE/backgroungbungadaisykecil2.jpg);
+        }
+        #about{
+            background-color: #b7dfaf;
+        }
+
+        #song{
+            background-color: #50b476;
+        }
+
+        #image{
+            background-image: url(IMAGE/backgdoundbungakecilbiru.jpg);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #0c0000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>WELCOME TO SUE SPACE</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#song">Songs & Videos</a>
+    <a href="#image">Image</a>
+
+</nav>
+
+<section id="home">
+    <style>
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .home-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45vh;
+        }
+
+        .home-container {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-image: url(IMAGE/backgroundWBB.jpg);
+            background-size:contain;
+            background-position:bottom;
+            background-repeat: repeat;
+        }
+
+        .home-image {
+            flex: 1;
+            padding-right: 10px;
+        }
+
+        .home-image img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .home-text {
+            flex: 4;
+        }
+
+        .home-text h1 {
+            margin-top: 0;
+        }
+
+        .home-text p {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section Home -->
+    <section class="home-section">
+        <div class="home-container">
+            <div class="home-image">
+                <img src="IMAGE/homemyself.jpg" alt="Deskripsi Gambar" />
+            </div>
+            <div class="home-text">               
+               <h1><em>WELCOME TO MY SMALL CORNER ON THE INTERNET!</em></h1>
+               <h1><em>THANK YOU FOR THE TAKING THE TIME TO VISIT. HOPE YOU ENJOY THE CONTENT!</em></h1>
+               <h1> &#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;</h1>
+                
+            </div>
+        </div>
+    </section>       
+ 
+</section>
+
+<section id="about">
+    <style>
+        .collapsible {
+          background-color: #7aa072;
+          color: white;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+        }
+        
+        .active, .collapsible:hover {
+          background-color: #21ac77;
+        }
+        
+        .content {
+          padding: 0 18px;
+          display: none;
+          overflow: hidden;
+          background-image: url(IMAGE/backgroundhome.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+        </head>
+        <body>
+    
+        <h1><b>MY SIMPLE BIODATA:</h1></b>
+        <button type="button" class="collapsible">PERSONAL DETAILS</button>
+        <div class="content">
+
+            
+            
+                      <p>Name: <b>SITI SULIANA BINTI OMAR</b></p>
+                         <p>Date of birth :<b> 18 MARCH 2003</b></p>
+                      <p>Place of birth:<b> Hospital Daerah Simunjan</b></p>
+                      <p>State:<b> Sarawak</b></p>
+                      <p>Nationality:<b> Malaysia</b></p>
+                      <p>Religion:<b> Islam</b></p>
+                      <p>Job:<b> Student</b></p>
+                      
+                      
+        </div>
+        
+        <button type="button" class="collapsible">EDUCATIONAL BACKGROUNDS</button>
+        <div class="content">
+          <p>Primacy School:<b> SK LUBOK BUNTIN, 2010-2015 (UPSR)</b></p>
+          <p>Secondary School:<b> SMK SADONG JAYA, 2016-2020 (PT3 AND SPM)
+          <b> SMK ASAJAYA, 2021-2022 (STPM)</b></p>
+                             
+        </div>
+        <button type="button" class="collapsible">INTEREST</button>
+        <div class="content">
+        <h2>Hobby</h2>
+        
+        <ul>
+          <li>Drawing</li>
+          <li>Singing</li>
+          <li>Listening to songs</li>
+          <li>Reading books</li>
+        </ul>  
+        
+        <h2>Things that I love</h2>
+        
+        <ul>
+          <li>Clouds</li>
+          <li>cats</li>
+          <li>Cartoon We Bare Bears</li>
+          <li>Panda</li>
+          <li>k-Drama</li>
+          <li>Running Man</li>
+        </ul> 
+        
+        <h2>Foods that I love</h2>
+        
+        <ul>
+          <li>Chicken rice</li>
+          <li>Spaghetti</li>
+          <li>Ayam kicap and ayam masak kurma</li>
+        </ul> 
+        
+        <h2>Drinks that I love</h2>
+        
+        <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ul> 
+        </div>
+        
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+        
+        
+</section>
+
+<section id="song & videos">
+    <h2>Favourites songs;</h2>
+        <style>
+            body {
+                background-color: #333;
+                color: #fff;
+                font-family: Arial, sans-serif;
+            }
+            
+            #song {
+                padding: 20px;
+            }
+    
+            .song-list {
+                margin-bottom: 20px;
+            }
+    
+            .song-list ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            .song-list li {
+                cursor: pointer;
+                margin-bottom: 5px;
+                color: #1e90ff;
+            }
+    
+            .song-list li:hover {
+                text-decoration: underline;
+            }
+    
+            .audio-container {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+    
+            .audio-info {
+                margin-left: 10px;
+            }
+    
+            audio {
+                max-width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <section id="song">
+
+            <style>
+                body {
+                    background-color: #333;
+                    color: #000000;
+                    font-family: Arial, sans-serif;
+                }
+                
+                #song {
+                    padding: 20px;
+                }
+        
+                .song-list {
+                    margin-bottom: 20px;
+                }
+        
+                .song-list ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+        
+                .song-list li {
+                    margin-bottom: 5px;
+                    color: #03090f;
+                }
+        
+                .audio-container {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 15px;
+                }
+        
+                .audio-info {
+                    margin-left: 10px;
+                }
+        
+                audio {
+                    max-width: 100%;
+                }
+            </style>
+        </head>
+        <body>
+        
+                <div class="song-list">
+                    <ul>
+                        <li>Kesetiaan - Siti Sarah</li>
+                        <li>Seluruh Cinta - Siti Nurhaliza & Cakra Khan</li>
+                    </ul>
+                </div>
+                
+                <div class="audio-container">
+                    <audio controls>
+                        <source src="SONGS/Kesetiaan.mp3" type="audio/mp3">
+                    </audio>
+                    <div class="audio-info">
+                        <h3>Kesetiaan</h3>
+                        <p>Siti Sarah</p>
+                    </div>
+                </div>
+                
+                <div class="audio-container">
+                    <audio controls>
+                        <source src="SONGS/Seluruh Cinta - Siti Nurhaliza   Cakra Khan.m4a" type="audio/mp3">
+                    </audio>
+                    <div class="audio-info">
+                        <h3>Seluruh Cinta</h3>
+                        <p>Siti Nurhaliza & Cakra Khan</p>
+                    </div>
+                </div>
+
+                <h1>Videos Favourites</h1>
+                <P><a href="https://youtu.be/mGhf31W8dis?si=mQ95WVXfbrGBae8z" target="_blank">RM Performance</a></P>
+                <P><a href="https://youtu.be/ZjOhcBuYvMA?si=-DHovV9Qn7_rdHte" target="_blank">We Bare Bears</a></P>
+                <p><a href="https://youtu.be/ZL_8dlec764?si=BbR_2a7F0VMsP294" target="_blank">Running Man</a></p>
+</section>
+
+<section id="image">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-image: url(IMAGE/backgroundbungajecil.jpg);
+            background-size:auto;
+            background-repeat: repeat;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 2;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 1 4rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a.active, nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .item {
+            border: 1px solid #ddd;
+            margin: 1rem;
+            padding: 10rem;
+            width: calc(30% - 15rem);
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .item img {
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        .item h2 {
+            margin-top: 0;
+            position: relative;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 0.5rem;
+        }
+
+        .item p {
+            position: relative;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .item {
+                width: calc(50% - 2rem);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .item {
+                width: calc(100% - 2rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Galery</h1>
+        <nav>
+            <ul>
+                <li><a href="#all" class="filter active" data-filter="all"> Show All</a></li>
+                <li><a href="#myself" class="filter" data-filter="myself">Myself</a></li>
+                <li><a href="#interest" class="filter" data-filter="interest">Interest</a></li>
+                <li><a href="#foods" class="filter" data-filter="foods">Foods and Drinks</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="gallery">
+            <div class="item myself">
+                <img src="IMAGE/myself.jpg" alt="Myself">
+
+            </div>
+
+            <div class="item myself">
+                <img src="IMAGE/myself3.jpg" alt="Myself">
+
+            </div>
+
+            <div class="item myself">
+                <img src="IMAGE/myself6.jpg" alt="Myself">
+
+            </div>
+
+            <div class="item interest">
+                <img src="IMAGE/webarebears.jpg" alt="interest">
+
+            </div>
+
+            <div class="item interest">
+                <img src="IMAGE/panda.jpg" alt="interest">
+
+            </div>
+
+            <div class="item interest">
+                <img src="IMAGE/avocado.jpg" alt="interest">
+
+            </div>
+
+            <div class="item interest">
+                <img src="IMAGE/RMFIRST.JPG" alt="interest">
+
+            </div>
+
+            <div class="item interest">
+                <img src="IMAGE/RM1.JPG" alt="interest">
+
+            </div>
+
+            <div class="item interest">
+                <img src="IMAGE/RMSOMIN.JPG" alt="interest">
+
+            </div>
+
+            <div class="item foods">
+                <img src="IMAGE/spaghetti.jpg" alt="foods">
+
+            </div>
+
+            <div class="item foods">
+                <img src="IMAGE/ayammasakkicap.jpg" alt="foods">
+
+            </div>
+
+            <div class="item foods">
+                <img src="IMAGE/kopi.jpg" alt="foods">
+
+            </div>
+
+            <div class="item foods">
+                <img src="IMAGE/coklatmilk.jpg" alt="foods">
+
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterLinks = document.querySelectorAll('.filter');
+            const items = document.querySelectorAll('.item');
+
+            filterLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    // Remove active class from all links
+                    filterLinks.forEach(link => link.classList.remove('active'));
+
+                    // Add active class to the clicked link
+                    this.classList.add('active');
+
+                    const filter = this.getAttribute('data-filter');
+
+                    items.forEach(item => {
+                        item.style.display = 'block';
+                        if (filter !== 'all' && !item.classList.contains(filter)) {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+ 
+</section>
+
+<footer>
+    <p> Sue Space.</p>
+</footer>
+
+</body>
+</html>
+
+
+
+          
